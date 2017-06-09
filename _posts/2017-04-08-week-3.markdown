@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Week 3"
+date:   2017-04-08 09:08:17 -0400
+category: afhs
+---
+Watch [David's Lecture Part 1](https://www.youtube.com/embed/B5oR3KmcCng?start=482&end=866)
+
+Watch [David's Lecture Part 2](https://www.youtube.com/embed/ecWNflDzFfA?start=1037&end=1929)
+

@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Week 0"
+date:   2017-01-08 09:08:17 -0400
+category: afhs
+---
+Complete [Tech Spotlight](http://docs.cs50.net/2016/ap/problems/tech/tech.html)
+
+Refer to [Memory Reference Sheet](https://www.dropbox.com/s/741mvsrde3dluu2/Memory.pdf?dl=0)

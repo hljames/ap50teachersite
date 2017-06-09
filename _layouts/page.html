@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>
+{% if page.page-class %}
+<div class="wrapper">
+  <article class="col-left">
+    <h1>Posts</h1>
+    <ul class="post-list">
+      {% for post in site.posts %}
+      {% if post.category == page.page-class %}
+      <li>
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+        <p> {{post.content}} </p>
+      </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </article>
+
+  {% if page.announcements %}
+    <article class="col-right">
+      <h1>Announcements</h1>
+      <ul>
+        {% for announce in page.announcements %}
+        <li>{{announce}}</li>
+        {% endfor %}
+      </ul>
+    </article>
+  {% endif %}
+</div>
+{% endif %}

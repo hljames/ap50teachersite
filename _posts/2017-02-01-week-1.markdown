@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Week 1"
+date:   2017-02-08 09:08:17 -0400
+category: afhs
+---
+Solve this [Scratch Problem](http://docs.cs50.net/2016/ap/problems/scratch/scratch.html)
+
+Practice with [Binary Bulbs](http://docs.cs50.net/2016/ap/problems/scratch/scratch.html)
+
+Watch [David's Lecture](https://www.youtube.com/embed/KUB-aJXquUA?start=1686&end=3083)
+
+Watch [Allison's Short](https://www.youtube.com/embed/KUB-aJXquUA?start=1686&end=3083)
+
