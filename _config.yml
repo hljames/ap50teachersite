@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 teacher: Ms. James
-email: haileyjames@alpinedistrict.org
+email: hjames@alpinedistrict.org
 school: American Fork High School
 logo: "https://s3.amazonaws.com/hsc-main/assets/2685372/2685372-poster.jpg?1418325350"
 description: > # this means to ignore newlines until "baseurl:"
